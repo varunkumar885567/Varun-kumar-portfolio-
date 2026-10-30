@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Varun Kumar | Web Developer & Data Analytics</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <div class="logo">
+        <div class="logo-box">VK</div>
+        <span>Varun <b>Kumar</b></span>
+    </div>
+
+    <nav>
+        <a href="#home" class="active">
+            <i class="fa-solid fa-house"></i> Home
+        </a>
+
+        <a href="#about">
+            <i class="fa-regular fa-user"></i> About
+        </a>
+
+        <a href="#skills">
+            <i class="fa-solid fa-code"></i> Skills
+        </a>
+
+        <a href="#experience">
+            <i class="fa-solid fa-briefcase"></i> Experience
+        </a>
+
+        <a href="#projects">
+            <i class="fa-regular fa-folder-open"></i> Projects
+        </a>
+
+        <a href="#contact">
+            <i class="fa-regular fa-message"></i> Contact
+        </a>
+    </nav>
+
+    <a href="#contact" class="cv-btn">
+        <i class="fa-solid fa-paper-plane"></i>
+        Contact Me
+    </a>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section id="home" class="hero">
+
+    <div class="hero-grid"></div>
+
+    <div class="hero-content">
+
+        <div class="hello">
+            HELLO, I'M 👋
+        </div>
+
+        <h1>
+            Varun <span>Kumar</span>
+        </h1>
+
+        <h2>
+            Web Developer & <span>Data Analytics</span>
+        </h2>
+
+        <div class="small-line"></div>
+
+        <p>
+            I build responsive web applications and work with data to create
+            useful, efficient and user-friendly solutions.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#projects" class="primary-btn">
+                Explore My Work
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <a href="#contact" class="secondary-btn">
+                Contact Me
+                <i class="fa-solid fa-paper-plane"></i>
+            </a>
+
+        </div>
+
+
+        <div class="social-area">
+
+            <p>Connect with me</p>
+
+            <div class="socials">
+
+                <!-- GitHub -->
+                <a
+                    href="https://github.com/varunkumar885567"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="GitHub"
+                >
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <!-- LinkedIn -->
+                <a
+                    href="https://www.linkedin.com/in/varun-kumar-7b4a42303"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="LinkedIn"
+                >
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <!-- Gmail -->
+                <a
+                    href="https://mail.google.com/mail/?view=cm&fs=1&to=varunkumar720973@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Gmail"
+                >
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= 3D PHOTO ================= -->
+
+    <div class="hero-photo">
+
+        <!-- Analytics card -->
+        <div class="hologram-card analytics-card">
+
+            <span>Analytics</span>
+
+            <div class="mini-chart">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+        </div>
+
+
+        <!-- Performance card -->
+        <div class="hologram-card performance-card">
+
+            <span>Performance</span>
+
+            <div class="circle-progress">
+                <strong>85%</strong>
+            </div>
+
+            <small>Excellent</small>
+
+        </div>
+
+
+        <!-- Growth card -->
+        <div class="hologram-card growth-card">
+
+            <span>Growth</span>
+
+            <div class="bars">
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+            </div>
+
+        </div>
+
+
+        <div class="photo-platform">
+
+            <div class="platform-glow"></div>
+
+            <div class="photo-ring">
+
+                <div class="scan-ui">
+
+                    <span class="corner top-left"></span>
+                    <span class="corner top-right"></span>
+                    <span class="corner bottom-left"></span>
+                    <span class="corner bottom-right"></span>
+
+                    <div class="scan-line"></div>
+
+                    <div class="scan-text">
+                        SCAN
+                    </div>
+
+                </div>
+
+
+                <!-- IMPORTANT PHOTO -->
+                <img
+                    src="./profile.jpg"
+                    alt="Varun Kumar"
+                    class="profile-photo"
+                    id="profilePhoto"
+                >
+
+                <div class="photo-error" id="photoError">
+
+                    <i class="fa-solid fa-user"></i>
+
+                    <span>
+                        Photo not found
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="platform-base">
+
+                <div class="platform-text">
+                    Turning Ideas into Reality 🚀
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="identity">
+
+            <i class="fa-solid fa-circle-check"></i>
+
+            IDENTITY VERIFIED
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT + SKILLS ================= -->
+
+<section class="content-section">
+
+
+    <!-- ABOUT -->
+
+    <div id="about" class="about-card card">
+
+        <div class="section-heading">
+
+            <div class="heading-icon">
+                <i class="fa-solid fa-user"></i>
+            </div>
+
+            <h2>About Me</h2>
+
+        </div>
+
+
+        <p>
+            I am a motivated developer interested in web development,
+            data analysis and building practical software projects.
+        </p>
+
+        <p>
+            During my internship at
+            <strong>JP Morgan Chase & Co.</strong>,
+            I worked on a Document Manager web application
+            using Angular and AG Grid.
+        </p>
+
+        <p>
+            I worked on data filtering, row grouping,
+            pagination and unit testing using Jasmine.
+        </p>
+
+        <p>
+            I enjoy learning new technologies and turning
+            ideas into real-world projects.
+        </p>
+
+
+        <div class="stats">
+
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <strong>500+</strong>
+                <small>Hours of Coding</small>
+            </div>
+
+            <div>
+                <i class="fa-regular fa-folder"></i>
+                <strong>5+</strong>
+                <small>Projects Completed</small>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-bullseye"></i>
+                <strong>100%</strong>
+                <small>Dedication</small>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- SKILLS -->
+
+    <div id="skills" class="skills-card card">
+
+        <div class="section-heading">
+
+            <div class="heading-icon">
+                <i class="fa-solid fa-code"></i>
+            </div>
+
+            <h2>My Skills</h2>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+            <div class="skill">
+                <i class="fa-brands fa-python"></i>
+                <h3>Python</h3>
+                <div class="dots">● ● ● ● ●</div>
+            </div>
+
+            <div class="skill">
+                <i class="fa-solid fa-chart-column"></i>
+                <h3>Pandas</h3>
+                <div class="dots">● ● ● ● ●</div>
+            </div>
+
+            <div class="skill">
+                <i class="fa-solid fa-database"></i>
+                <h3>SQL</h3>
+                <div class="dots">● ● ● ● ●</div>
+            </div>
+
+            <div class="skill">
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>HTML & CSS</h3>
+                <div class="dots">● ● ● ● ●</div>
+            </div>
+
+            <div class="skill">
+                <i class="fa-brands fa-js"></i>
+                <h3>JavaScript</h3>
+                <div class="dots">● ● ● ● ●</div>
+            </div>
+
+            <div class="skill">
+                <i class="fa-brands fa-angular"></i>
+                <h3>Angular</h3>
+                <div class="dots">● ● ● ● ●</div>
+            </div>
+
+            <div class="skill">
+                <i class="fa-brands fa-github"></i>
+                <h3>Git & GitHub</h3>
+                <div class="dots">● ● ● ● ●</div>
+            </div>
+
+            <div class="skill">
+                <i class="fa-solid fa-vial"></i>
+                <h3>Jasmine</h3>
+                <div class="dots">● ● ● ● ●</div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= EXPERIENCE ================= -->
+
+<section id="experience" class="experience-section">
+
+    <div class="experience-card card">
+
+        <div class="section-heading">
+
+            <div class="heading-icon">
+                <i class="fa-solid fa-briefcase"></i>
+            </div>
+
+            <h2>Experience</h2>
+
+        </div>
+
+
+        <div class="timeline">
+
+            <div class="timeline-dot"></div>
+
+            <div class="experience-content">
+
+                <div class="experience-top">
+
+                    <div>
+
+                        <h3>SEP Intern</h3>
+
+                        <h4>
+                            JP Morgan Chase & Co.
+                        </h4>
+
+                    </div>
+
+                    <span>
+                        May 2023 – July 2023
+                    </span>
+
+                </div>
+
+
+                <ul>
+
+                    <li>
+                        Worked on a Document Manager web application
+                        using Angular and AG Grid.
+                    </li>
+
+                    <li>
+                        Implemented row grouping,
+                        column filtering and data filtering.
+                    </li>
+
+                    <li>
+                        Implemented server-side pagination
+                        and nested child pagination.
+                    </li>
+
+                    <li>
+                        Developed Angular unit tests using Jasmine,
+                        mocks, stubs and spies.
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects" class="projects-section">
+
+    <div class="projects-card card">
+
+        <div class="section-heading">
+
+            <div class="heading-icon">
+                <i class="fa-regular fa-folder"></i>
+            </div>
+
+            <h2>Featured Projects</h2>
+
+        </div>
+
+
+        <div class="projects-grid">
+
+
+            <!-- PROJECT 1 -->
+
+            <div class="project">
+
+                <div class="project-image netflix-image">
+                    NETFLIX
+                </div>
+
+                <h3>
+                    Netflix Data Analysis
+                </h3>
+
+                <p>
+                    Exploratory data analysis of the Netflix dataset
+                    using Python, Pandas and visualization libraries.
+                </p>
+
+                <div class="project-icons">
+
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-chart-column"></i>
+                    <i class="fa-solid fa-database"></i>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 2 -->
+
+            <div class="project">
+
+                <div class="project-image document-image">
+
+                    <i class="fa-solid fa-folder-open"></i>
+
+                </div>
+
+                <h3>
+                    Document Manager
+                </h3>
+
+                <p>
+                    Web application developed during internship
+                    using Angular and AG Grid.
+                </p>
+
+                <div class="project-icons">
+
+                    <i class="fa-brands fa-angular"></i>
+                    <i class="fa-solid fa-table"></i>
+                    <i class="fa-solid fa-vial"></i>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 3 -->
+
+            <div class="project">
+
+                <div class="project-image dashboard-image">
+
+                    <i class="fa-solid fa-chart-line"></i>
+
+                </div>
+
+                <h3>
+                    Data Analytics Dashboard
+                </h3>
+
+                <p>
+                    Interactive dashboard for analyzing data
+                    and generating meaningful business insights.
+                </p>
+
+                <div class="project-icons">
+
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-chart-column"></i>
+                    <i class="fa-solid fa-database"></i>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="contact-section">
+
+    <div class="contact-box">
+
+        <div class="contact-message">
+
+            <h2>
+                Let's Build Something Amazing Together! 🚀
+            </h2>
+
+            <p>
+                I am open to opportunities in Web Development
+                and Data Analytics.
+            </p>
+
+        </div>
+
+
+        <div class="contact-links">
+
+
+            <!-- EMAIL -->
+
+            <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=varunkumar720973@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+
+                <i class="fa-regular fa-envelope"></i>
+
+                <div>
+                    <strong>Email</strong>
+                    <small>
+                        varunkumar720973@gmail.com
+                    </small>
+                </div>
+
+            </a>
+
+
+            <!-- LINKEDIN -->
+
+            <a
+                href="https://www.linkedin.com/in/varun-kumar-7b4a42303"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+
+                <i class="fa-brands fa-linkedin"></i>
+
+                <div>
+                    <strong>LinkedIn</strong>
+                    <small>
+                        varun-kumar-7b4a42303
+                    </small>
+                </div>
+
+            </a>
+
+
+            <!-- GITHUB -->
+
+            <a
+                href="https://github.com/varunkumar885567"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+
+                <i class="fa-brands fa-github"></i>
+
+                <div>
+                    <strong>GitHub</strong>
+                    <small>
+                        github.com/varunkumar885567
+                    </small>
+                </div>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    © 2026 Varun Kumar. All rights reserved.
+
+    <span>|</span>
+
+    Built with
+    <i class="fa-solid fa-heart"></i>
+    using
+    <b>HTML</b>,
+    <b>CSS</b> &
+    <b>JavaScript</b>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
